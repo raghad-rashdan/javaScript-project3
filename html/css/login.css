@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #fef4e8;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #fef4e8;
+  height: 100%;
+}
+.div2 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 5%;
+}
+.img {
+  width: 50%;
+}
+.divlogin {
+  width: 30%;
+  border-radius: 12px;
+  background-color: #f8e5cf;
+}
+.h2log {
+  color: #002046;
+  text-align: center;
+}
+.email {
+  color: #002046;
+}
+.labele {
+  border: 3px #f99821 solid;
+  background-color: #e8f0fe;
+  width: 90%;
+  border-radius: 10px;
+  height: 40px;
+  margin-left: 3%;
+}
+h2 {
+  margin-left: 3%;
+}
+.password {
+  color: #002046;
+}
+.labelp {
+  border: 3px #f99821 solid;
+  background-color: #e8f0fe;
+  width: 90%;
+  border-radius: 10px;
+  height: 40px;
+  margin-left: 3%;
+}
+.button {
+  background-color: #f99821;
+  border-radius: 10px;
+  border: #f99821;
+  color: #002046;
+  margin: auto;
+  display: block;
+  height: 40px;
+  width: 90px;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 10%;
+}
+.button:hover {
+  background-color: #002046;
+  color: #f99821;
+}
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .divlogin {
+    width: auto;
+  }
+  .div2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+    margin-top: 10%;
+  }
+  .img {
+    width: 100%;
+    margin-right: 5px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .divlogin {
+    width: 40%;
+  }
+  .img {
+    width: 60%;
+    margin-right: 6%;
+  }
+  .div2 {
+    width: 90%;
+  }
+  .button {
+    margin-top: 10px;
+  }
+}

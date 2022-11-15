@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.body {
+    background-color:#FEF4E8 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.main{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 2%; */
+}
+
+.text {
+    /* padding-bottom: 200px; */
+    width: 50%;
+}
+
+.text h2 {
+
+    font-size: 80px;
+    color:#002046;
+    font-family: 'Fredoka One', cursive;
+    padding-bottom: 20px;
+
+}
+
+.text p {
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;
+    color: #F99821 ;
+    padding-bottom: 20px;
+
+}
+
+.text button {
+    width:350px;
+    /* height: 80px; */
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 3rem;
+    color: #F99821;
+    background-color: #002046;
+    border-radius: 25px;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.main img {
+    width:40%;
+    height: 50%;
+}
+

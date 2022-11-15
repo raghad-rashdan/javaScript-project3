@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #fef4e8;
+}
+
+.page1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #fef4e8;
+  height: 100%;
+}
+.signup {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 5%;
+}
+.imgup {
+  width: 75%;
+  margin-left: 30%;
+}
+.formup {
+  width: 130%;
+  background-color: #f8e5cf;
+  border-radius: 12px;
+}
+
+.formup input:focus {
+  border-color: #002046;
+}
+
+.textup {
+  color: #002046;
+  text-align: center;
+}
+.emailup {
+  color: #002046;
+}
+.labele {
+  border: 3px #f99821 solid;
+  background-color: #e8f0fe;
+  width: 90%;
+  border-radius: 10px;
+  height: 40px;
+  margin-left: 3%;
+}
+
+h2 {
+  margin-left: 3%;
+}
+.passwordup {
+  color: #002046;
+}
+.full {
+  color: #002046;
+}
+.repetpass {
+  color: #002046;
+}
+.labelp {
+  border: 3px #f99821 solid;
+  background-color: #e8f0fe;
+  width: 90%;
+  border-radius: 10px;
+  height: 40px;
+  margin-left: 3%;
+}
+.buttonup {
+  background-color: #f99821;
+  border-radius: 10px;
+  border: #f99821;
+  color: #002046;
+  margin: auto;
+  display: block;
+  height: 40px;
+  width: 120px;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 15%;
+}
+.buttonup:hover {
+  background-color: #002046;
+  color: #f99821;
+}
+.buttonup :hover {
+  background-color: #002046;
+  color: #f99821;
+}
+span {
+  color: red;
+  font-size: 10pxrem;
+  display: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  .signup {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    margin-top: 8%;
+    margin-left: 50px;
+  }
+  .imgup {
+    width: 100%;
+    margin-right: 90px;
+    margin-top: 20px;
+  }
+
+  .formup {
+    width: 148%;
+  }
+  .buttonup {
+    margin-top: 16%;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .formup {
+    width: 370%;
+  }
+  .imgup {
+    width: 80%;
+    margin-top: 50%;
+  }
+}

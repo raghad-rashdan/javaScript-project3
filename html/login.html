@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>H3RAM</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+
+  <body>
+    <div class="div1">
+      <div class="div2">
+        <img src="img/bgsignup.png" alt="img log in.png" class="img" />
+
+        <div class="divlogin">
+          <h1 class="h2log">Log In</h1>
+          <br />
+          <div>
+            <h2 class="email">Email</h2>
+            <label>
+              <input type="email" class="labele" id="username" />
+            </label>
+          </div>
+
+          <div>
+            <h2 class="password">Password</h2>
+            <label>
+              <input type="password" class="labelp" id="password" />
+            </label>
+          </div>
+          <input type="checkbox" name="chec" />
+          <label for="chec">Remember me</label>
+          <br />
+
+          <button class="button" type="button" onclick="signin()">
+            Log In
+          </button>
+          <p id="result" style="display: inline-block"></p>
+          <p style="text-align: center">
+            don't have an account ? <a href="signup.html"> Sign Up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>
