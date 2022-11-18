@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="css/signnup.css" />
+  </head>
+
+  <body>
+    <div class="page1">
+      <div class="signup">
+        <div class="formup">
+          <h1 class="textup">registration</h1>
+          <br />
+          <div class="form-control">
+            <div class="form-control">
+              <h2 class="full">Full Name:</h2>
+              <label>
+                <input type="text" class="labele" id="fullname" />
+              </label>
+              <span id="msgfull">please check your full name</span>
+            </div>
+            <div class="form-control">
+              <h2 class="emailup">Email:</h2>
+              <label>
+                <input type="email" class="labele" id="emaill" />
+              </label>
+              <span id="msgemail">please check your email</span>
+            </div>
+
+            <div class="form-control">
+              <h2 class="passwordup">Password:</h2>
+              <label>
+                <input type="password" class="labelp" id="pass" />
+              </label>
+              <br />
+              <span id="msgpass"> 8 to 16 characters:</span>
+            </div>
+            <div class="form-control">
+              <h2 class="repetpass">Confirm your Password :</h2>
+              <label>
+                <input type="password" class="labelp" id="rpass" />
+              </label>
+
+              <span id="msgrepass">please confirm your password</span>
+            </div>
+
+            <div>
+              <input
+                type="button"
+                value="SignUP"
+                onclick="signnup()"
+                class="buttonup"
+              />
+            </div>
+            <p style="text-align: center">
+              Already have a account ? <a href="login.html"> login</a>
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src="img/bgsignup.png" alt="img log in.png" class="imgup" />
+        </div>
+      </div>
+    </div>
+    <script src="/html/js/signup.js"></script>
+  </body>
+</html>
