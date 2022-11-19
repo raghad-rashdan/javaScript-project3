@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/welcome.css">
+    <script src="https://kit.fontawesome.com/cd46a65f5c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>     
+     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main" >
+        
+        <div class="inner-div">
+
+            <img href="homepage.html"  src="img/resize for best view (2) copy.png"    alt=""  > 
+
+        <div class="button1">
+            <a  href="login.html">Log Out</a>
+            <button ><a href="homepage.html">Home</a> </button>
+        </div>
+
+    </div>
+
+    <div class="sec2">  
+        <div class="Welcome"  >
+            <div class="hello">
+                <h1 >Hello <span id="helloFullName">Full Name</span></h1>
+                <h4 >Welcome to our IQ Test</h4>
+                <br>
+            </div>
+            <div test-level>
+               <h2>The Test Consist Of <span> Three Levels :</span></h2>
+             <ul class="level-name">
+                <li><span>Imitate</span> Level 20%</li>
+                <li><span>Adapt</span>  Level 30%</li>
+                <li><span>Transpose</span> Level 50%</li>
+
+            </ul>
+            </div>
+
+                <button class="start-quiz-button" onclick="move()"> Start Imitate level </button>
+            
+        </div>
+        <div class="lump-div" >
+            <img class="lump-image" src="img/lump.png" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        
+        <div class="important-link">
+            <ul type="none">
+                <li class="li-titel" >Important Link</li>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="homepage.html">Why</a></li>
+                <li><a href="homepage.html">Contact Us</a></li>
+                <li><a href="homepage.html">IQ Test</a></li>
+            </ul>
+        </div>
+            <div class="more-quiz">
+                <ul type="none">
+                    <li class="li-titel" >More Quiz</li>
+                    <li><a href="homepage.html">Sport</a></li>
+                    <li><a href="homepage.html">Java script</a></li>
+                    <li><a href="homepage.html">HTML</a></li>
+                    <li><a href="homepage.html">English</a></li>
+                </ul>
+
+        </div>
+
+        <div class="social-media-icon">
+            <p>Social Media</p>
+            <div class="icon">
+            <a href="homepage.html"><i class="fa-brands fa-facebook"></i></a>
+            <a href="homepage.html"><i class="fa-brands fa-twitter"></i></a>
+            <a href="homepage.html"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="homepage.html"><i class="fa-brands fa-github"></i></a>
+            <a href="homepage.html"><i class="fa-brands fa-youtube"></i></a>
+            <a href="homepage.html"><i class="fa-brands fa-discord"></i></a>
+            </div>
+        </div>
+
+
+    </div>
+    <link rel="stylesheet" href="proj3.js">
+
+       <script>
+        let fullName = sessionStorage.getItem("fullName");
+        document.getElementById("helloFullName").innerHTML = `${fullName}`;
+        function move(){
+            window.location.href = "./quiz.html";
+        }
+       </script>
+    </body>
+</html>

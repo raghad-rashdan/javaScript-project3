@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResultPage</title>
+    <link rel="stylesheet" href="css/resultPage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="cont">
+        <div class="bigbox">
+            <div class="inner-div">
+
+                <img  src="img/logo.png" alt="" href="homepage.html"> 
+
+            <div class="button1">
+                <a href="homepage.html">Home </a>
+                <a href="homepage.html" id="logOout" class="btnsee" style="color: white; text-align:center; padding: 8px ;">Log Out </a>
+            </div>
+
+        </div>
+    
+            <hr style="background-color: #F24726;width: 100%; height: 2px;">
+          <div class="desresult">
+         
+          <img id="logo" src="img/success1.png" alt="" class="resphoto">
+         
+         
+            <img id="logo1" src="img/fail1.png" alt="" class="resphoto">
+         
+         <div id="result-successful">
+            <h3 class="result-show">The result : <h3 class="mark"></h3> </h3>
+        <h3 >Congratulations</h3>
+        <p>We will arrange with you the Second interview</p>
+        <button  class ="btnsee" onclick="openbutton()"> see <br>answers </button>
+        </div>
+        <div id="result-fail">
+            <h3 class="result-show">The result : <h3 class="mark"></h3> </h3>
+        <h3 >Unfortunately</h3>
+        <p>You did not fulfill our requirements</p>
+
+        <button id="submit"  class ="btnsee" onclick="openbutton()"> Show Answer </button>
+        </div>
+    </div><br>
+         <div id="questions">
+            <!-- <p style="text-align:center; color: #F24726;">one level</p> -->
+
+          
+          
+           
+         </div>
+         <button id="closebtn" onclick="closebutton()">close</button>
+        </div>
+    </div>
+    <!-- <script type="text/javascript" src="resultPage.js"></script> -->
+
+    <script src="js/resultPage.js"></script>
+</body>
+</html>

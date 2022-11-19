@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fef4e8;
+}
+.inner-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-div img {
+  width: 9%;
+}
+.button1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+.button1 a {
+  text-decoration: none;
+  color: #f99821;
+  font-family: 'Fredoka One', cursive;
+  font-size: 35px;
+}
+
+.button1 a:hover {
+  border-color: #002046;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+}
+
+.cont {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background-color: #fef4e8;
+  display: flex;
+  justify-content: center;
+}
+.bigbox {
+  height: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* background-color: #FAC710; */
+}
+.nav {
+  width: 100%;
+  height: 50px;
+}
+.btnsee,
+#closebtn {
+  text-decoration: none;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  width: 10rem;
+  border: none;
+  background-color: #f99821;
+}
+.desresult {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  /* margin-left: 15%; */
+  height: 100%;
+}
+.resphoto {
+  width: 45%;
+  /* height: 100%; */
+}
+#logo1 {
+  display: none;
+  /* height: 50%; */
+  width: 25%;
+  margin-left: 3rem;
+}
+#logo {
+  display: none;
+  /* height: 50%; */
+  width: 25%;
+  margin-left: 3rem;
+}
+/* #logo, #logo1{
+    width: 40%;
+} */
+#result-successful {
+  color: #59ec5a;
+  text-align: center;
+  font-size: 30px;
+  display: none;
+  width: 40%;
+  margin-top: 10%;
+}
+#result-fail {
+  color: #f24726;
+  text-align: center;
+  font-size: 30px;
+  display: none;
+  width: 40%;
+  margin-top: 10%;
+}
+#questions {
+  width: 80%;
+  margin-left: 10%;
+  display: none;
+}
+#question {
+  width: 91%;
+}
+.questionbox {
+  width: 80%;
+  height: auto;
+  border-radius: 50px;
+  border: 2px solid #fac710;
+  background-color: #fffcfc;
+  margin: 2% 5% 2rem 5%;
+  padding-left: 10%;
+  /* padding-right: 10%; */
+  display: flex;
+  flex-direction: column;
+  /* background-color: #59EC5A; */
+}
+.ans {
+  width: 90%;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1.6rem;
+  /* background-color: aqua; */
+}
+.ansbox {
+  border: 1px solid #fac710;
+  background-color: #fef4e8;
+  border-radius: 5px;
+  text-align: center;
+  font-size: large;
+  height: 18%;
+  padding-top: 0.4rem;
+}
+
+#closebtn {
+  display: none;
+  margin-left: 40%;
+}
+
+.green {
+  background-color: green !important;
+}
+.red {
+  background-color: red;
+}
+
+@media all and (min-device-width: 0) and (max-device-width: 480px) {
+  .inner-div img {
+    width: 20%;
+  }
+  .button1 {
+    width: 65%;
+  }
+  .button1 a {
+    font-size: 20px;
+  }
+  .button1 button {
+    font-size: 20px;
+    width: 100%;
+  }
+ .btnsee{
+  width: 100px;
+  font-size: 20px;
+ }
+  .desresult {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    margin-left: 15%;
+    height: 100%;
+  }
+  .resphoto {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #result-successful {
+    font-size: 20px;
+    margin-top: 5%;
+    width: 100%;
+  }
+  #result-fail {
+    font-size: 20px;
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  #logo1 {
+
+    width: 70%;
+    margin-right: 20%;
+  }
+  #logo {
+    width: 70%;
+    margin-right: 20%;
+
+  }
+
+
+  #questions {
+    width: 100%;
+    margin-left: 2%;
+  }
+  .questionbox {
+    width: 100%;
+    border-radius: 8%;
+    border: 2px solid #fac710;
+    background-color: #fffcfc;
+    margin: 2% 0% 2% 0%;
+    padding-left: 5%;
+  }
+  #closebtn {
+    margin-left: 18.6%;
+  }
+}
+
+@media all and (min-device-width: 481px) and (max-device-width: 768px) {
+
+  
+  .inner-div img {
+    width: 15%;
+  }
+  .button1 {
+    width: 40%;
+  }
+  .button1 a {
+    font-size: 25px;
+  }
+  .button1 button {
+    font-size: 25px;
+    width: 100%;
+  }
+  .desresult {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .resphoto {
+    width: 50%;
+  }
+  #result-successful {
+    font-size: 20px;
+    margin-top: 5%;
+  }
+  #result-fail {
+    font-size: 20px;
+    margin-top: 5%;
+  }
+
+  #closebtn {
+    margin-left: 35%;
+  }
+
+  #logo1 {
+
+    width: 30%;
+  }
+  #logo {
+    width: 30%;
+  }
+
+  #questions {
+    width: 95%;
+    margin-left: 3%;
+  }
+
+}
+
